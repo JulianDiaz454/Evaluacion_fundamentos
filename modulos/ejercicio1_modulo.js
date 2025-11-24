@@ -18,14 +18,17 @@ export function promedioNotas(arreglo_notas) {
     if (promedio >= 4.5) {
         // Creamos un mensaje
         let mensaje = `El promedio es ${promedio.toFixed(2)} - Rendimiento: Alto`;
+        // Retornamos el mensaje
+    return mensaje;
     } else if (promedio >= 3.0 && promedio < 4.5) {
         // Creamos un mensaje
         let mensaje = `El promedio es ${promedio.toFixed(2)} - Rendimiento: Medio`
+        // Retornamos el mensaje
+    return mensaje;
     } else if (promedio < 3.0) {
         // Creamos un mensaje
         let mensaje = `El promedio es ${promedio.toFixed(2)} - Rendimiento: Bajo`
-    }
-
-    // Retornamos el mensaje
+        // Retornamos el mensaje
     return mensaje;
+    }
 }
