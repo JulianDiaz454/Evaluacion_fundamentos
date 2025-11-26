@@ -1,5 +1,5 @@
 // Importamos las funciones necesarias
-import { precioFinal } from "./modulos/ejercicio4_modulo";
+import { precioFinal } from "./modulos/ejercicio4_modulo.js";
 
 // Ejercicio 4
 
@@ -7,4 +7,4 @@ import { precioFinal } from "./modulos/ejercicio4_modulo";
 let costos = precioFinal();
 
 // Mostramos el resultado al usuario
-alert(`Total a pagar por impuestos${costos}`);
+alert(`Total a pagar por impuestos ${costos}`);
