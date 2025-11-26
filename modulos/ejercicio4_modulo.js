@@ -34,7 +34,7 @@ export const precioFinal = function() {
 }
 
 // Función declarada para determinar el impuesto 
-function calcularImpuesto(valor_producto, impuesto) {
+export function calcularImpuesto(valor_producto, impuesto) {
     // Calculamos el impuesto    
     let valor_impuesto = (valor_producto * impuesto) / 100;
     // Retornamos el valor del impuesto
